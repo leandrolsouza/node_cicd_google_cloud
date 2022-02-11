@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/leandrolsouza/node_cicd_google_cloud/issues"
   },
-  "homepage": "https://github.com/leandrolsouza/node_cicd_google_cloud#readme"
+  "homepage": "https://github.com/leandrolsouza/node_cicd_google_cloud#readme",
+  "dependencies": {
+    "winston": "^3.5.1"
+  }
 }
