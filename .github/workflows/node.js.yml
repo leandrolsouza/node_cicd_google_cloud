@@ -33,7 +33,7 @@ jobs:
     - name: Docker Build & Push Action  # This is a comment
       uses: mr-smithers-excellent/docker-build-push@v5.6
       with:
-        image: repo/image
+        image: leandrolsouza/node_cicd_google_cloud
         registry: docker.io
         dockerfile: Dockerfile.ci
         username: ${{ secrets.DOCKER_USERNAME }}
