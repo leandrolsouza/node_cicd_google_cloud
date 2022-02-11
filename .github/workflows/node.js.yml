@@ -30,10 +30,10 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
 
-    - uses: mr-smithers-excellent/docker-build-push@v5.6
+  - uses: mr-smithers-excellent/docker-build-push@v5.6
     name: Build & push Docker image
     with:
-      image: docker/leandrolsouza/dugout
+      image: repo/image
       registry: docker.io
       username: ${{ secrets.DOCKER_USERNAME }}
       password: ${{ secrets.DOCKER_PASSWORD }}
